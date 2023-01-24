@@ -96,16 +96,17 @@ body,html{
 }
 
 .diseases{
+  
     text-align: right;
    
 }
 
 .diseases span{
-    padding: 7px;
-    padding-top: 3px;
+    padding: 4px;
+    /* padding-top: 3px; */
     border-radius: 30px;
     background: #FFEEE6;
-    text-align: center;
+    /* text-align: center; */
     font-size: 11px;
 }
 .date-span{
@@ -139,9 +140,16 @@ body,html{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding-left: 80px;
+    padding-left: 220px;
     padding-top: 15px;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
+/* @media (max-width:420) {
+
+    .document-view{
+        margin-left: 90px !important;
+    }
+} */
