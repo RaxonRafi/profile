@@ -147,9 +147,9 @@ body,html{
     cursor: pointer;
 }
 
-/* @media (max-width:420) {
+@media (max-width:420px) {
 
     .document-view{
-        margin-left: 90px !important;
+        padding-left: 90px !important;
     }
-} */
+}
